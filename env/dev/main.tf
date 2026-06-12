@@ -11,3 +11,9 @@ module "app_service" {
   app_service_name = "myapp-05282026a"
 
 }
+
+module "az_storage_account" {
+  source = "../../modules/az-storage-account"
+}
+
+
